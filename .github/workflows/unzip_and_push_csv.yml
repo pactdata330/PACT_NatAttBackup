@@ -3,7 +3,7 @@ name: Unzip and Push CSV Monthly
 on:
   schedule:
     # This tells the robot to run at 00:00 UTC on the 1st of every month
-    - cron: '0 0 1 * *' 
+    - cron: '0 0 1,21 * *' 
   workflow_dispatch: # This lets you manually tell the robot "do it now!"
 
 jobs:
